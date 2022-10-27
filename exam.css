@@ -1,0 +1,199 @@
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+.background {
+    background-image: url(../Exam/images/backgroundimage.png);
+    width: 100%;
+    height: 100vh;
+    margin-top: 0;
+}
+.top-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    position: absolute;
+    top: 0;
+}
+
+.top-logo {
+    margin-right: 1000px;
+}
+
+.top-item {
+    margin-right: 30px;
+}
+
+.top-topic {
+    position: absolute;
+    font-weight: 600;
+    font-size: 70px;
+    margin-top: 480px;
+    margin-left: 180px;
+}
+
+.arrow {
+    position: absolute;
+    margin-top: 1080px;
+    margin-left: 2150px;
+    cursor: pointer;
+}
+
+.middle-section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.middle-left-image {
+    width: 50%;
+    height: 600px;
+}
+
+.middle-left-topic {
+    position: absolute;
+    color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-weight: 600;
+    font-size: 30px;
+    width: 300px;
+}
+
+.middle-right-image {
+    width: 50%;
+    height: 600px;
+}
+
+.middle-right-topic {
+    position: absolute;
+    color: white;
+    margin-top: 30px;
+    margin-left: 1850px;
+    font-weight: 600;
+    font-size: 30px;
+    width: 350px;
+    text-align: end;
+}
+
+.post-section-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin: 30px;
+}
+
+.post-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 480px;
+}
+
+.post1 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 480px;
+    background-color: rgb(240, 240, 240);
+}
+
+.post2 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 480px;
+    background-color: rgb(73, 79, 187);
+}
+
+.post-image {
+    width: 100%;
+    height: 480px;
+}
+
+.post-topic {
+    font-weight: 600;
+    font-size: 23px;
+    text-align: center;
+    margin-top: -70px;
+}
+
+.bottom-section {
+    display: flex;
+    flex-direction: row;
+    color: #999999;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+.bottom-logo {
+    margin-left: 30px;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.logo-container {
+    background-image: url(../Exam/images/footer-logo.png);
+    width: 86px;
+    height: 12.79px;
+}
+.footer-collab {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.collab-first {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #666666;
+}
+.collab-second {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.footer-menu {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #666666;
+}
+.footer-border {
+    width: 18px;
+    height: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    transform: rotate(-90deg);
+}
